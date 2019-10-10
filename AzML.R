@@ -21,7 +21,7 @@ req = list(
 )
 
 body = enc2utf8(toJSON(req))
-api_key = "xAch9Wo0Z1N82sHvLYd4mhzdNhOHLoxEM2cQ2gEI3vqx2vesFOR1G40vMYnHU5GaSy5lh0TuCD2WzyBKg5PPfQ==" # Replace this with the API key for the web service
+api_key = "123"
 authz_hdr = paste('Bearer', api_key, sep=' ')
 
 h$reset()
